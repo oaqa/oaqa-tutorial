@@ -1,0 +1,18 @@
+configuration: 
+  name: oaqa-tutorial
+  author: oaqa
+
+
+collection-reader:
+  inherit: collection_reader.filesystem-collection-reader
+  InputDirectory: data/
+pipeline:
+  - inherit: ecd.phase  
+    name: RoomNumberAnnotator
+    options: |
+      - inherit: tutorial.ex1.RoomNumberAnnotator 
+       
+        
+
+ 
+  - inherit: cas_consumer.AnnotationPrinter

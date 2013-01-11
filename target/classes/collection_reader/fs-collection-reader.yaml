@@ -1,0 +1,7 @@
+class: collection.fs.FileCollectionReader
+
+#decorators: |
+#  - inherit: internal.collection.retrieval-gs-decorator
+  
+persistence-provider: |
+  inherit: ecd.default-experiment-persistence-provider
