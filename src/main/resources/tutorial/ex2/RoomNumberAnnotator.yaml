@@ -1,7 +1,5 @@
 class: org.apache.uima.tutorial.ex2.RoomNumberAnnotator
-  
-            
-            
+    
 Locations: [Watson - Yorktown, Watson - Hawthrone I, Watson - Hawthorne II]
 Patterns: ["\\b[0-4]\\d[0-2]\\d\\d\\b","\\b[G1-4][NS]-[A-Z]\\d\\d\\b","\\bJ[12]-[A-Z]\\d\\d\\b"]
 persistence-provider: |

@@ -50,4 +50,10 @@ public class Sentence extends Annotation {
   public Sentence(JCas jcas, int start, int end) {
     super(jcas, start, end);
   }
+  /** <!-- begin-user-doc -->
+    * Write your own initialization here
+    * <!-- end-user-doc -->
+  @generated modifiable */
+  private void readObject() {/*default - does nothing empty block */}
+     
 }

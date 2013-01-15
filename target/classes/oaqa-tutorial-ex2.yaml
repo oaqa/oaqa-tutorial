@@ -5,12 +5,10 @@ configuration:
 
 collection-reader:
   inherit: collection_reader.fs-collection-reader
-  file: /data/UIMA_Seminars.txt
+  file: /data/WatsonConferenceRooms.txt
 pipeline:
   - inherit: ecd.phase  
     name: RoomNumberAnnotator
     options: |
       - inherit: tutorial.ex2.RoomNumberAnnotator
-
- 
   - inherit: cas_consumer.AnnotationPrinter

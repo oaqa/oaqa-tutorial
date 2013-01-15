@@ -18,7 +18,7 @@
  */
 // 
 //
-package org.apache.uima.tutorial.ex2;
+package org.apache.uima.tutorial.ex3;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

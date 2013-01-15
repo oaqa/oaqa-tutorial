@@ -1,0 +1,9 @@
+pipeline:  
+     - inherit: ecd.phase  
+       name: RoomNumberAnnotator
+       options: |
+         - inherit: tutorial.ex3.RoomNumberAnnotator   
+     - inherit: ecd.phase  
+       name: TutorialDateTime
+       options: |
+         - inherit: tutorial.ex3.TutorialDateTime

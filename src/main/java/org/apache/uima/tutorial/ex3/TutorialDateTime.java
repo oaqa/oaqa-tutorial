@@ -134,8 +134,8 @@ public class TutorialDateTime extends JCasAnnotator_ImplBase {
 
     // Create Annotations
     ResultSpecification resultSpec = getResultSpecification();
-    boolean timeWanted = resultSpec.containsType("org.apache.uima.tutorial.TimeAnnot", aJCas.getDocumentLanguage());
-    boolean dateWanted = resultSpec.containsType("org.apache.uima.tutorial.DateAnnot", aJCas.getDocumentLanguage());
+    boolean timeWanted = true;
+    boolean dateWanted = true;
 
     if (timeWanted)
       makeAnnotations(timeAnnotationMaker, hoursMinutesPattern, dfTimeShort);
