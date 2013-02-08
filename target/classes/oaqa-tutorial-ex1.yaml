@@ -8,9 +8,9 @@ collection-reader:
   InputDirectory: data/
 pipeline:
   - inherit: ecd.phase  
-    name: RoomNumberAnnotator
+    name: RemoteRoomNumberAnnotator
     options: |
-      - inherit: tutorial.ex1.RoomNumberAnnotator 
+      - inherit: tutorial.ex1.RemoteRoomNumberAnnotator 
        
         
 
