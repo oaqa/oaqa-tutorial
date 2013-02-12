@@ -11,8 +11,5 @@ pipeline:
     name: RemoteRoomNumberAnnotator
     options: |
       - inherit: tutorial.ex1.RemoteRoomNumberAnnotator 
-       
-        
-
  
   - inherit: cas_consumer.AnnotationPrinter

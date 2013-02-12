@@ -1,6 +1,7 @@
 class: edu.cmu.lti.oaqa.ecd.phase.adapter.JMSAdapterWrapper
-brokerUrl: tcp://peace.isri.cs.cmu.edu:61616
-endpoint: RoomNumber_Annotator
+#brokerUrl: tcp://peace.isri.cs.cmu.edu:61616
+brokerUrl: tcp://localhost:61616
+endpoint: RoomNumberAnnotatorQueue
 timeout: 5000
 getmetatimeout: 5000
 cpctimeout: 5000
