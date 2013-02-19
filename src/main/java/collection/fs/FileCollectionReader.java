@@ -81,7 +81,7 @@ public final class FileCollectionReader extends IterableCollectionReader {
     public DataElement build(String line) {
       String[] data = line.split("\\|");
       System.out.println(Arrays.toString(data));
-      return new DataElement(getDataset(), 0, line, null);
+      return new DataElement(getDataset(), "0", line, null);
     }
   }
 }

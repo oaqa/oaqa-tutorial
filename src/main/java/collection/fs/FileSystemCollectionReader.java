@@ -214,7 +214,7 @@ public class FileSystemCollectionReader extends AbstractCollectionReader {
 		 * file.length()); srcDocInfo.setLastSegment(mCurrentIndex ==
 		 * mFiles.size()); srcDocInfo.addToIndexes();
 		 */
-		return new DataElement(getDataset(), 0, text, null);
+		return new DataElement(getDataset(), "0", text, "0");
 	}
 
 }
