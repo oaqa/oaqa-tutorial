@@ -9,6 +9,6 @@ pipeline:
   - inherit: ecd.phase  
     name: RemoteRoomNumberAnnotator
     options: |
-      - inherit: tutorial.ex1.RemoteRoomNumberAnnotator 
+      - inherit: tutorial.ex1.RoomNumberAnnotator 
 
-  - inherit: cas_consumer.AnnotationPrinter
+  - inherit: cas_consumer.XmiWriterCasConsumer

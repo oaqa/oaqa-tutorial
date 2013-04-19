@@ -5,5 +5,5 @@ BrowseSubdirectories: FALSE
 Encoding: UTF-8 
 
 
-persistence-provider: |
-  inherit: ecd.default-experiment-persistence-provider
+#persistence-provider: |
+#  inherit: ecd.default-experiment-persistence-provider

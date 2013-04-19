@@ -14,5 +14,5 @@ pipeline:
      - inherit: ecd.phase  
        name: TutorialDateTime
        options: |
-         - inherit: tutorial.ex3.TutorialDateTime        
-     - inherit: cas_consumer.XmiWriterCasConsumer
+         - inherit: tutorial.ex3.SimpleTutorialDateTime        
+     - inherit: cas_consumer.AnnotationPrinter

@@ -11,4 +11,4 @@ pipeline:
     name: RoomNumberAnnotator
     options: |
       - inherit: tutorial.ex2.RoomNumberAnnotator
-  - inherit: cas_consumer.AnnotationPrinter
+  - inherit: cas_consumer.XmiWriterCasConsumer

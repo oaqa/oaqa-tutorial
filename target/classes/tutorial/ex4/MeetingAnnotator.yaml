@@ -1,0 +1,4 @@
+class: org.apache.uima.tutorial.ex4.MeetingAnnotator
+WindowSize: 200
+persistence-provider: |
+  inherit: ecd.default-log-persistence-provider
